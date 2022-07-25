@@ -1,0 +1,140 @@
+.container {
+  display: flex;
+
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.content {
+  background: #f4f8fd;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+
+  &-header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+  }
+
+  &-inner {
+    padding: 10px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+  }
+}
+
+.search-icon {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.universitet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  &-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &-text {
+    margin: auto 20px;
+  }
+}
+
+.menu-icon {
+  margin-top: 238px;
+  margin-left: 98px;
+  height: 44px;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+.table {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  &-header {
+    tr {
+      padding: 0 8px;
+    }
+    th {
+      text-align: left;
+      height: 60px;
+      padding: 0 12px;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 18px;
+      color: #222b35;
+    }
+  }
+  &-body {
+    tr {
+      padding: 0 8px;
+    }
+    td {
+      text-align: left;
+      height: 60px;
+      padding: 0 12px;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 18px;
+      color: #222b35;
+    }
+  }
+}
+
+.pagination {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  &-left {
+    display: flex;
+
+    * {
+      margin: 0;
+      color: #3492ff;
+    }
+  }
+  &-right {
+    display: flex;
+    margin: 0;
+    * {
+      margin: 0;
+      color: #9bacbf;
+    }
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+}
+
+.num {
+  display: flex;
+
+  * {
+    margin: 0 10px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

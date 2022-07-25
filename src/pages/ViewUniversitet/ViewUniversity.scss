@@ -1,0 +1,39 @@
+.container-universitet {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.universitet {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #222b35;
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+}
+.adduniversitet-btn {
+  display: flex;
+}
+
+.form-inner-view {
+  width: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 6px;
+  * {
+    margin: 10px 20px;
+    width: 50%;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}

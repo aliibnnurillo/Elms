@@ -1,0 +1,49 @@
+.btn {
+  margin: auto 16px;
+  padding: 15px 20px;
+  font-weight: 400;
+  height: 40px;
+  font-size: 18px;
+  line-height: 19px;
+
+  border-radius: 8px;
+  border: transparent;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+
+  &--variant {
+    &-blue {
+      background: #3492ff;
+      color: #ffffff;
+    }
+
+    &-white {
+      color: #222b35;
+      background: #f4f8fd;
+    }
+    &-background {
+      background: #fff;
+    }
+    &-margin {
+      margin: 0;
+    }
+  }
+
+  &-suffix-icon {
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    margin-left: 11.33px;
+    &-none {
+      display: none;
+      width: 0;
+    }
+    > * {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.active {
+  background: rgba(219, 212, 212, 0.1);
+}
+
+.menu-item-text {
+  margin-left: 13px;
+  list-style: none;
+  font-size: 14px;
+  line-height: 19px;
+  flex: none;
+
+  letter-spacing: 2px;
+}
+.menu-item-prefix-icon {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,63 @@
+.content-header {
+  width: 100%;
+}
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.user {
+  display: flex;
+  justify-content: space-around;
+  margin: auto 20px;
+  &-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: auto 20px;
+  }
+  &-name {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    color: #222b35;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  &-level {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #3492ff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+.bell-icon {
+  width: 36px;
+  height: 36px;
+  background: #f4f8fd;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.help-icon {
+  width: 36px;
+  height: 36px;
+  background: #f4f8fd;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+}

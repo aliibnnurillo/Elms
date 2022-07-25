@@ -1,0 +1,16 @@
+.tag {
+  cursor: pointer;
+  display: inline-flex;
+  height: 19px;
+  background: #e3feee;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: center;
+  color: #39cc72;
+  padding: 2px 8px;
+  &--gray {
+    color: #9bacbf;
+  }
+}

@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
+}
+
+.app-wrapper {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app-content {
+  background: #f4f8fd;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.app-logo {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.app-sidebar {
+  width: 240px;
+  background: #3492ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &-collapse {
+    margin: 20px auto;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+  }
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.user {
+  display: flex;
+  justify-content: space-around;
+  margin: auto 20px;
+  &-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: auto 20px;
+  }
+  &-name {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    color: #222b35;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  &-level {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #3492ff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+
+.bell-icon {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  background: #f4f8fd;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.help-icon {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  background: #f4f8fd;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+}
+.search-icon {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.universitet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  &-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &-text {
+    margin: auto 20px;
+  }
+}

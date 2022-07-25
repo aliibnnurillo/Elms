@@ -1,0 +1,74 @@
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  color: #3492ff;
+  cursor: pointer;
+  background: #ecf5ff;
+  border-radius: 4px;
+  position: relative;
+}
+
+.dropdown {
+  user-select: none;
+  top: calc(100% + 8px);
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.16);
+  border-radius: 6px;
+  width: 130px;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: right;
+  z-index: 23;
+  transition: all 0.3s ease-in-out;
+  padding: 0 5px;
+
+  &-open {
+    opacity: 1;
+    visibility: visible;
+  }
+  &-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.batafsil {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: right;
+  color: #222b35;
+  margin-right: 10px;
+}
+.change {
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: right;
+  color: #222b35;
+}
+.delete {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: right;
+  color: #e02222;
+}

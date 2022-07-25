@@ -1,0 +1,55 @@
+.form-input {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.input {
+  width: auto;
+  height: 44px;
+  border: 1px solid #cbdaec;
+  border-radius: 4px;
+  padding: 0 10px;
+  &-add {
+    width: 100%;
+  }
+  &-field {
+    width: 360px;
+    height: 120px;
+  }
+}
+.input {
+  &:focus {
+    outline: none;
+    border-color: #2d8cf0;
+
+    + .label {
+      color: #2d8cf0;
+    }
+  }
+  &-error {
+    outline: none;
+    border-color: #e02222;
+  }
+}
+
+.required {
+  color: #e02222;
+}
+.label {
+  padding-top: 24px;
+  padding-bottom: 6px;
+  user-select: none;
+
+  &-text {
+    padding: 5px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  &-padding {
+    padding: 0;
+  }
+}
+.label-text:focus {
+  color: #3492ff;
+}
