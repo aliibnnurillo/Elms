@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import * as Icon from "../Icon";
 import cx from "classnames";
 import "./Aside.scss";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Aside() {
   //   const menus = [

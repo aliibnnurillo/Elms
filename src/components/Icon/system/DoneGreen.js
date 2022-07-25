@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => {
+const DoneGreen = () => {
   return (
     <svg
       width="24"
@@ -14,3 +14,4 @@ export default () => {
     </svg>
   );
 };
+export default DoneGreen;

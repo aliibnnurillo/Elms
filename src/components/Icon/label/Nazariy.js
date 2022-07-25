@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => {
+const Nazariy = () => {
   return (
     <svg
       width="80"
@@ -52,3 +52,4 @@ export default () => {
     </svg>
   );
 };
+export default Nazariy;

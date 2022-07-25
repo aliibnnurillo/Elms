@@ -8,9 +8,7 @@ const AddUniversity = () => {
   const { id } = useParams();
 
   console.log("id", id);
-  const [tables, setTables] = useState(
-    JSON.parse(localStorage.getItem("tables")) || []
-  );
+  const tables = JSON.parse(localStorage.getItem("tables")) || [];
 
   const [single, setSingle] = useState({});
 

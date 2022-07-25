@@ -1,5 +1,5 @@
 import React from "react";
-export default () => {
+const Menu = () => {
   return (
     <svg
       width="24"
@@ -12,3 +12,4 @@ export default () => {
     </svg>
   );
 };
+export default Menu;

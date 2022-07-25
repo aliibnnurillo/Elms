@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => {
+const Symbol = () => {
   return (
     <svg
       width="80"
@@ -34,3 +34,4 @@ export default () => {
     </svg>
   );
 };
+export default Symbol;

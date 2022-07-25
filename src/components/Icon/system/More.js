@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => {
+const More = () => {
   return (
     <svg
       width="24"
@@ -16,3 +16,4 @@ export default () => {
     </svg>
   );
 };
+export default More;

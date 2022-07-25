@@ -1,7 +1,6 @@
 import Input from "../../components/Input";
 import { Formik } from "formik";
 import React from "react";
-import { useHistory } from "react-router-dom";
 import * as Icon from "../../components/Icon";
 import Button from "../../components/Button";
 import "./ModalDastur.scss";

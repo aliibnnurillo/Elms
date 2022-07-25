@@ -1,9 +1,8 @@
 import Button from "../../components/Button/Button";
 
-import Topbar from "../../components/Topbar";
 import * as Icon from "../../components/Icon";
 
-import { React, useEffect, useState } from "react";
+import { React, useState } from "react";
 import "./O'quvDasturi.scss";
 import Table from "../../components/Table";
 import { useHistory } from "react-router-dom";

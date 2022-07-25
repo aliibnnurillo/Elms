@@ -1,10 +1,5 @@
 import React from "react";
 import Button from "../Button/Button";
-import * as Icon from "../Icon";
-import { Formik } from "formik";
-import { Field, Form, ErrorMessage } from "formik";
-// import { Input } from "@mui/material";
-import Input from "../Input";
 
 import "./Modal.scss";
 

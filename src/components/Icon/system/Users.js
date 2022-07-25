@@ -1,5 +1,5 @@
 import React from "react";
-export default () => {
+const Users = () => {
   return (
     <svg
       width="24"
@@ -15,3 +15,4 @@ export default () => {
     </svg>
   );
 };
+export default Users;

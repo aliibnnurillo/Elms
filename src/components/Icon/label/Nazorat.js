@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => {
+const Nazorat = () => {
   return (
     <svg
       width="80"
@@ -40,3 +40,4 @@ export default () => {
     </svg>
   );
 };
+export default Nazorat;

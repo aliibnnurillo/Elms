@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => {
+const FileUploader= () => {
   return (
     <svg
       width="40"
@@ -16,3 +16,4 @@ export default () => {
     </svg>
   );
 };
+export default FileUploader;
