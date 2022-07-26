@@ -6,8 +6,7 @@ import { useHistory, useParams } from "react-router-dom";
 
 const AddUniversity = () => {
   const { id } = useParams();
-
-  console.log("id", id);
+  //eslint-disable-next-line
   const tables = JSON.parse(localStorage.getItem("tables")) || [];
 
   const [single, setSingle] = useState({});
@@ -25,7 +24,7 @@ const AddUniversity = () => {
 
     // topilsa single ga set qilish
     setSingle(foundItem);
-  }, [tables]);
+  }, [id, tables]);
 
   const [title, setTitle] = useState("");
   const [name, setName] = useState("");

@@ -6,13 +6,10 @@ import { useHistory, useParams } from "react-router-dom";
 
 const AddUniversity = () => {
   const { id } = useParams();
-
-  console.log("id", id);
-  const [tables, setTables] = useState(
-    JSON.parse(localStorage.getItem("tables")) || []
-  );
-
   const [single, setSingle] = useState({});
+
+  //eslint-disable-next-line
+  const tables = JSON.parse(localStorage.getItem("tables")) || [];
 
   useEffect(() => {
     if (!tables) return;
@@ -27,7 +24,7 @@ const AddUniversity = () => {
 
     // topilsa single ga set qilish
     setSingle(foundItem);
-  }, [tables]);
+  }, [id, tables]);
 
   const [title, setTitle] = useState("");
   const [name, setName] = useState("");
@@ -38,21 +35,6 @@ const AddUniversity = () => {
     setName(single.name || "");
     setDate(single.date || "");
   }, [single]);
-
-  const handleAddTableSubmit = (e) => {
-    e.preventDefault();
-
-    let table = {
-      title,
-      name,
-      date,
-      id: (tables.at(-1)?.id || 0) + 1,
-    };
-    setTables([...tables, table]);
-    setTitle("");
-    setName("");
-    setDate("");
-  };
 
   const history = useHistory();
 
